@@ -9,7 +9,7 @@ const initialState = {
 };
 
 // eslint-disable-next-line default-param-last
-export default function (state = initialState, action) {
+export default function ReducerFunction(state = initialState, action) {
   switch (action.type) {
     case types.LOGIN_SUCCESS: {
       const newState = { ...state };
