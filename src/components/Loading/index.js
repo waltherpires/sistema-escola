@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Container } from './styled';
 
 export default function Loading({ isLoading }) {
-  if (!isLoading) return <></>;
+  if (!isLoading) return <div />;
   return (
     <Container>
       <div />

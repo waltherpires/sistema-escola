@@ -53,6 +53,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.24.1",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "babel-preset-react-app": "*",
     "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
